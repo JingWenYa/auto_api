@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="auto_api_v7">
+  <classes>
+      <class name="com.auto.cases.RegisterCase"/>
+      <class name="com.auto.cases.LoginCase"/>
+      <class name="com.auto.cases.RechargeCase"/>
+    </classes>
+  </test> <!-- auto_api_v5 -->
+</suite> <!-- Default Suite -->

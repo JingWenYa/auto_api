@@ -44,9 +44,6 @@ public class RegisterCase extends BaseCase{
         //7、添加断言回写内容
         String passContent = (assertResponseData && assertSQL) ? "pass" : "fail";
         addWriteBackData(c.getCaseId(), Constant.ASSERT_CELLNUM, passContent);
-
-        //报表断言
-        Assert.assertEquals(passContent,"pass");
     }
 
     @Step("执行注册sql断言")
